@@ -1,0 +1,16 @@
+{
+  "name": "basictaiwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/style.css -o public/output.css -w"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
